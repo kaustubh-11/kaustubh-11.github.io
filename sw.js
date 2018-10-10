@@ -15,9 +15,12 @@ self.addEventListener('install', function(e) {
         '/',
         '/index.html',
         '/manifest.json',
+        'validate.js',
+        'register_script.js',
         'https://unpkg.com/onsenui/css/onsenui.min.css',
         'https://unpkg.com/onsenui/css/onsen-css-components.min.css',
-        'https://unpkg.com/onsenui/js/onsenui.min.js'
+        'https://unpkg.com/onsenui/js/onsenui.min.js',
+
       ]);
     })
   );
