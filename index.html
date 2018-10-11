@@ -2,11 +2,11 @@
 <html>
 <head>
 
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="manifest.json">
 
   <script>
   if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('sw.js')
       .then(() => console.log("Service Worker Registered"))
       .catch(e => console.log(e));
   }
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 
-  <title>PWA App - v1</title>
+  <title>PWA App - v2</title>
 </head>
 <body>
   <ons-button onclick="prompt('You clicked me!')">Click Me</ons-button>
